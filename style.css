@@ -29,6 +29,7 @@ input {
   padding: 10px;
 }
 h1, h2{
+  margin: 10px;
   text-shadow: 1px 3px 4px black;
 }
 a{
@@ -48,4 +49,7 @@ button {
 }
 footer{
   margin: 10px;
+}
+@media screen and (min-width:0){
+ 
 }
