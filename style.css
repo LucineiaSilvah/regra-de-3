@@ -1,0 +1,94 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+background: #9164efa8;
+margin: auto;
+color: white;
+
+}
+input{
+  width: 60%;
+  padding: 2rem;
+  text-align: center;
+}
+.cont{
+  width: 100%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.box{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px 0;
+}
+.g1, .g2{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+h1, h2{
+  margin: 10px;
+  text-shadow: 2px 2px 4px #5f00efa8;
+}
+.box button{
+  width: 200px;
+  padding: 10px;
+
+ background: #5f00efa8;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+.resp{
+  color: green;
+  font-style: italic;
+  margin: 10px;
+}
+.info,.ex{
+  margin-left: 10px;
+  font-size: 10px;
+  font-style: italic;
+}
+
+h1{
+  text-align: center;
+}
+footer{
+
+  margin: 20px;
+}
+footer a{
+  color: #5f00efa8;
+  font-weight: bold;
+}
+footer a:hover{
+  color:#fff;
+}
+@media screen and (max-width:420px) {
+ .cont{
+  width: 80%;
+ justify-content: space-between;
+ margin: 0 20px;
+
+
+ }
+ 
+ input{
+  font-size: 0.8rem;
+ }
+}
+
