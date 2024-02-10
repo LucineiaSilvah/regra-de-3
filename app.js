@@ -11,25 +11,25 @@ botao.addEventListener("click", () => {
     B = 1;
     let x = parseInt(C.value) * B;
     let resposta = (parseInt(A.value) * parseInt(D.value)) / x;
-    resp.innerHTML = resposta;
+    resp.innerHTML ='X = ' + resposta;
 
 
   } else if (D.value == "X".toLocaleLowerCase()) {
     D = 1;
     let x = A.value * D;
     let resposta = (parseInt(C.value) * parseInt(B.value)) / x;
-    resp.innerHTML = resposta;
+    resp.innerHTML ='X = ' + resposta;
   }else if (A.value == "X".toLocaleLowerCase()) {
     A = 1;
     let x = D.value * A;
     let resposta = (parseInt(C.value) * parseInt(B.value)) / x;
-    resp.innerHTML = resposta;
+    resp.innerHTML ='X = ' + resposta;
   }
   else if (C.value == "X".toLocaleLowerCase()) {
     C = 1;
     let x = B.value * C;
     let resposta = (parseInt(A.value) * parseInt(D.value)) / x;
-    resp.innerHTML = resposta;
+    resp.innerHTML ='X = ' + resposta;
   }
   
   else {
