@@ -7,25 +7,25 @@ const botao = document.querySelector("button");
 let resp = document.querySelector(".resp");
 
 botao.addEventListener("click", () => {
-  if (B.value == "X".toLocaleLowerCase()) {
+  if (B.value == "X" || B.value == "x") {
     B = 1;
     let x = parseInt(C.value) * B;
     let resposta = (parseInt(A.value) * parseInt(D.value)) / x;
     resp.innerHTML = resposta;
 
 
-  } else if (D.value == "X".toLocaleLowerCase()) {
+  } else if (D.value == "X" || D.value == "x") {
     D = 1;
     let x = A.value * D;
     let resposta = (parseInt(C.value) * parseInt(B.value)) / x;
     resp.innerHTML = resposta;
-  }else if (A.value == "X".toLocaleLowerCase()) {
+  }else if (A.value == "X" || A.value == "x") {
     A = 1;
     let x = D.value * A;
     let resposta = (parseInt(C.value) * parseInt(B.value)) / x;
     resp.innerHTML = resposta;
   }
-  else if (C.value == "X".toLocaleLowerCase()) {
+  else if (C.value == "X" || C.value == "x") {
     C = 1;
     let x = B.value * C;
     let resposta = (parseInt(A.value) * parseInt(D.value)) / x;
